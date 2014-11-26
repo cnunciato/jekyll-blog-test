@@ -16,5 +16,12 @@ exclude:
   - Gemfile.lock
   - README.md
 prose:
-  rooturl: '_posts'
-  media: 'images'
+  rooturl: _posts
+  siteurl: http://jekyll-blog-test.s3-website-us-west-2.amazonaws.com/
+  media: images
+  metadata:
+    _posts:
+      - name: title
+        field:
+          element: text
+          label: title
