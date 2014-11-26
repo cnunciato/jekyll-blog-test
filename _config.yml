@@ -9,6 +9,8 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: cnunciato
 github_username:  cnunciato
 markdown: kramdown
+exclude:
+  - vendor
 prose:
   rooturl: '_posts'
   media: 'images'
