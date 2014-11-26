@@ -1,5 +1,9 @@
+bundler_args: --deployment --without development
 cache:
   bundler: true
+  directories:
+    - $(rvm gemdir)
+    - build
 deploy:
   provider: s3
   access_key_id:
@@ -8,7 +12,7 @@ deploy:
     secure: Sq6EQIzAaaKEwh/+fvB0xY/SgpfDiekW/d6G+04FpTlfCKp8+lTGAgVrLk/acztIx9Jre4wrRDnlqBReJKrDX4a1yUgdlVKLANyVtAaH64PE0gyeUlhRknhjiWlkUpGvdS6uj1KaPm5HxzrztH/ac3NjJlxaxZrxx2oqfIlc/Z8=
   bucket: jekyll-blog-test
   skip_cleanup: false
-  local-dir: build
+  local-dir: _site
   acl: public_read
   on:
     repo: cnunciato/jekyll-blog-test
