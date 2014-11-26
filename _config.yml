@@ -20,6 +20,8 @@ prose:
   rooturl: _posts
   siteurl: http://jekyll-blog-test.s3-website-us-west-2.amazonaws.com/
   media: images
+  ignore:
+    - .gitkeep
   metadata:
     _posts:
       - name: layout
