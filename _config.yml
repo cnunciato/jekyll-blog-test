@@ -11,6 +11,7 @@ github_username:  cnunciato
 markdown: kramdown
 exclude:
   - vendor
+  - Rakefile
   - Gemfile
   - Gemfile.lock
   - README.md
