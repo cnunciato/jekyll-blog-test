@@ -1,9 +1,7 @@
-title: Your awesome title
-email: your-email@domain.com
+title: Chris's Awesome Blog
+email: chris@nunciato.org
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Chris lives on a farm in Ohio and misses Seattle but totally likes it here, too.
 baseurl: ''
 url: http://jekyll-blog-test.s3-website-us-west-2.amazonaws.com
 twitter_username: cnunciato
