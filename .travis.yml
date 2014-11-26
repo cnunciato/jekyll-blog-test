@@ -4,13 +4,14 @@ branches:
 deploy:
   provider: s3
   access_key_id:
-    secure: G8i6jVQYy6ZaTrnp49vmxi1hnZbEKKEivRk0aTDk1rbOsJye2b8j/pUcN9zvvu6aoeb0DFiVMVXf0HEaHnyir7Zw/6qpmK8bTVSB4cCsF+0+bqkmH9LjrIX4rfcofVE3eiYeL2rVQCn71jW6fACXR0mqqY4Y/EEM6pxfrHVkpdk=
+    secure: eLU+Y3lClk7jzDwxSvgblZPpIuXCDrE7K/5+VH6ckDotZZAUTTl7l43wd2g3V8xpQRC601YR+EKIAyUWOpOdN2F62u1JmEL/sp7UcsJ4OFjaCJbcKcuBEAiYRjB11gw5ePnzJxNvwcvynjPlC7GKcrVKh36eZWbcqGF9TZaZCgI=
   secret_access_key:
-    secure: Sq6EQIzAaaKEwh/+fvB0xY/SgpfDiekW/d6G+04FpTlfCKp8+lTGAgVrLk/acztIx9Jre4wrRDnlqBReJKrDX4a1yUgdlVKLANyVtAaH64PE0gyeUlhRknhjiWlkUpGvdS6uj1KaPm5HxzrztH/ac3NjJlxaxZrxx2oqfIlc/Z8=
+    secure: hB0SXxr/C68/cgCnOCoVpIKEagdtlBq1aE9onnJRwtb9KHCidaSxJlmOrtEf7NAFheKONXjSYs6eHRvSZpnpnKYU8yMpNLm3VpPiuzTtTVGJcn+hRmZFbN95GBdO0FCZoYE5qE7YiS1dNEkCHm3e3wP8j2hieSq5anAO8v7FmLI=
   bucket: jekyll-blog-test
   endpoint: jekyll-blog-test.s3-website-us-west-2.amazonaws.com
   region: us-west-2
-  skip_cleanup: false
+  skip_cleanup: true
+  local-dir: _site
   acl: public_read
   on:
     repo: cnunciato/jekyll-blog-test
