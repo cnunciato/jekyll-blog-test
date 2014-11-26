@@ -11,6 +11,9 @@ github_username:  cnunciato
 markdown: kramdown
 exclude:
   - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 prose:
   rooturl: '_posts'
   media: 'images'
