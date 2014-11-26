@@ -1,7 +1,8 @@
 ---
 layout: default
-published: false
+published: true
 title: ""
+author: Chris Nunciato
 ---
 
 ## I Am Changing the Title Here
