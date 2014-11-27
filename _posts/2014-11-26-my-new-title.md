@@ -13,4 +13,4 @@ Now, I'm going to add an image:
 
 ![camera.jpg]({{site.baseurl}}/images/camera.jpg)
 
-Which is awesome.
+Which is awesome. And here is a change.
