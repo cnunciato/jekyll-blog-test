@@ -14,3 +14,5 @@ Now, I'm going to add an image:
 ![camera.jpg]({{site.baseurl}}/images/camera.jpg)
 
 Which is awesome. Also adding a line with my phone now.
+
+La la la.
